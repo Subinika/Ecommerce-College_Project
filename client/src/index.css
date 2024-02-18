@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  line-height: 26px;
+  text-transform: uppercase;
+  box-shadow: 0 8px 6px -6px gray;
+  height: 70px;
+  --webkit-box-shadow: 0 8px 6px -6px gray;
+  border-bottom: 0.5px gray !important;
+}
+
+.nav-link {
+  font-weight: 300 !important;
+}
+
+.active {
+  border-bottom: 2px solid black;
+}
+
+.navbar-brand {
+  border-bottom: none !important;
+  font-weight: 700;
+  font-family: "roboto";
+  letter-spacing: 2px;
+}
+
+.fashionIcon {
+  margin-right: 10px;
+}
+
+.footer {
+  color: white;
+  padding: 2px;
+  background: #999;
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+.footer a:hover {
+  color: #ffefba;
+  border-bottom: 1px solid #ffefba;
+}
+
+.pnf {
+  display: flex;
+  min-height: 65vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pnf-title {
+  font-size: 100px;
+  font-weight: 700;
+}
+
+.pnf-heading {
+  font-weight: normal;
+}
+
+.pnf-btn {
+  color: black;
+  border: 1px solid black;
+  text-decoration: none;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #999;
+  border-radius: 10px;
+}
+.pnf-btn:hover {
+  background-color: #999;
+  color: white;
+}
+
+.contactus {
+  margin: 0;
+  padding: 0;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: auto;
+  flex-direction: column;
+}
+
+.form-container form {
+  min-width: 40vw;
+  height: auto;
+
+  border-radius: 20px;
+  margin-top: 50px;
+
+  padding: 10px;
+
+  -webkit-box-shadow: -3px 3px 23px 0px rgba(163, 153, 163, 1);
+  -moz-box-shadow: -3px 3px 23px 0px rgba(163, 153, 163, 1);
+  box-shadow: -3px 3px 23px 0px rgba(163, 153, 163, 1);
+}
+
+.title {
+  font-family: "Poppins";
+  text-align: center;
+}
+
+.btnLogin {
+  display: block;
+  width: 200px;
+  margin: 10px auto;
+  background: #999;
+  border: none;
+}
+
+.btnDelete {
+  display: block;
+  width: 200px;
+  margin: 10px auto;
+  border: none;
+}
+
+.EditBtn {
+  background: #999;
+  margin: 0, 0, 0, 16px;
+  width: 80px;
+  border: none;
+}
+
+.EditBtn:hover {
+  background: rgba(61, 65, 61, 0.754);
+}
+
+.tag {
+  display: block;
+  text-align: center;
+  margin: 10px auto;
+  border: none;
+  text-decoration: none;
+  color: black;
+}
+
+.tag:hover {
+  color: grey;
+}
+
+.btnLogin:hover {
+  background: rgba(61, 65, 61, 0.754);
+}
+
+.active {
+  border-bottom: none !important;
+}
+
+div.show {
+  font-family: bold;
+  font-weight: 800;
+  margin: 0;
+  width: 100% !important;
+  background-color: white;
+}
+
+div.container-fluid {
+  padding: 0 !important;
+}
+
+a.nav-link {
+  margin-left: 10px;
+}
+
+.btn-outline-success {
+  border: none;
+  color: whitesmoke;
+  background-color: #999;
+  border-radius: 4px;
+  width: 100px;
+  height: 37px;
+}
+
+.btn-outline-success:hover {
+  border: none;
+  background-color: #888;
+}
+
+.cart {
+  cursor: pointer;
+}
